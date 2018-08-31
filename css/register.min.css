@@ -1,0 +1,244 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+ul, ol, li {
+  list-style: none; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+input {
+  outline: none; }
+
+.clear_fix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clear_fix {
+  zoom: 1; }
+
+/*-------top--------*/
+#header {
+  width: 1264px; }
+  #header .header_con {
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden; }
+    #header .header_con .logo {
+      float: left; }
+      #header .header_con .logo a {
+        display: block;
+        width: 276px;
+        height: 83px;
+        background: url(../../dist/img/register/spring.png) no-repeat 0 -15px; }
+    #header .header_con .header_right {
+      float: right;
+      margin-top: 10px; }
+      #header .header_con .header_right .ShowWelcome {
+        font-size: 12px;
+        float: left;
+        line-height: 34px;
+        margin-right: 110px; }
+        #header .header_con .header_right .ShowWelcome a {
+          color: #8cc341; }
+      #header .header_con .header_right .h_r {
+        float: right;
+        font-size: 12px;
+        line-height: 34px; }
+        #header .header_con .header_right .h_r a {
+          color: #4b4b4b; }
+
+/*------foot--------*/
+#foot {
+  height: 450px;
+  background: #fff; }
+  #foot .foot_t {
+    width: 1050px;
+    border-top: 1px solid #DDD;
+    margin: 0 auto; }
+  #foot .other_help {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    height: 226px;
+    padding-top: 10px; }
+    #foot .other_help .wrapper {
+      width: 980px;
+      height: 50px;
+      margin: 0 auto;
+      clear: both; }
+      #foot .other_help .wrapper .wrapper_b span {
+        width: 160px;
+        height: 50px;
+        display: inline-block;
+        margin-right: 80px;
+        background: url(../../dist/img/index/index.png) no-repeat; }
+      #foot .other_help .wrapper .wrapper_b .zp {
+        background-position: 2px -77px; }
+      #foot .other_help .wrapper .wrapper_b .ps {
+        background-position: -158px -77px; }
+      #foot .other_help .wrapper .wrapper_b .aq {
+        background-position: -331px -77px; }
+      #foot .other_help .wrapper .wrapper_b .fw {
+        background-position: -515px -77px; }
+      #foot .other_help .wrapper dl {
+        float: left;
+        margin: 20px 40px 0 0;
+        color: #222;
+        font-size: 12px;
+        line-height: 18px; }
+        #foot .other_help .wrapper dl dt {
+          font-size: 14px;
+          line-height: 18px;
+          font-weight: bold;
+          margin-bottom: 10px; }
+        #foot .other_help .wrapper dl dd {
+          line-height: 24px;
+          text-align: left; }
+          #foot .other_help .wrapper dl dd a {
+            cursor: pointer;
+            color: #818181; }
+        #foot .other_help .wrapper dl dd:hover a {
+          color: #aa2e44; }
+        #foot .other_help .wrapper dl .gz {
+          width: 240px;
+          height: 125px;
+          background: url(../img/register/register.png) no-repeat 0 -343px; }
+    #foot .other_help .clear {
+      clear: both;
+      font-size: 1px;
+      line-height: 0;
+      height: 0px; }
+    #foot .other_help .bottom {
+      width: 1050px;
+      border-bottom: 1px solid #F1F1F1;
+      margin: 0 auto; }
+  #foot .foot_b {
+    padding-top: 10px;
+    width: 980px;
+    margin: 0 auto;
+    text-align: center; }
+    #foot .foot_b .nav {
+      text-align: left; }
+      #foot .foot_b .nav a {
+        padding: 0 5px;
+        color: #222;
+        cursor: pointer;
+        font-size: 12px; }
+    #foot .foot_b .tb a {
+      display: inline-block; }
+    #foot .foot_b .bq {
+      font-size: 12px; }
+
+/*------center------*/
+#center {
+  width: 1264px;
+  margin: 0 auto; }
+  #center .center_con {
+    width: 758px;
+    margin: 0 auto; }
+    #center .center_con .reg {
+      width: 758px;
+      height: 76px;
+      background: url(../img/register/zc.jpg) no-repeat;
+      margin-top: 40px;
+      position: relative; }
+      #center .center_con .reg .reg_r {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        height: 38px;
+        line-height: 38px; }
+        #center .center_con .reg .reg_r .zh {
+          float: left;
+          margin-right: 20px;
+          color: #fff; }
+        #center .center_con .reg .reg_r .reglogin {
+          float: right; }
+    #center .center_con .reg1 {
+      width: 756px;
+      height: 400px;
+      background: url(../img/register/zc_06.jpg);
+      padding-top: 20px; }
+      #center .center_con .reg1 .reg_main {
+        padding-left: 10px; }
+        #center .center_con .reg1 .reg_main form h3 {
+          font-size: 16px;
+          color: #d1436b;
+          font-weight: bold;
+          padding-bottom: 30px; }
+        #center .center_con .reg1 .reg_main form p {
+          line-height: 24px;
+          margin-bottom: 20px; }
+          #center .center_con .reg1 .reg_main form p i {
+            display: inline-block;
+            width: 150px;
+            text-align: right; }
+          #center .center_con .reg1 .reg_main form p .spa {
+            display: none;
+            font-size: 12px;
+            color: brown; }
+          #center .center_con .reg1 .reg_main form p b {
+            display: none;
+            font-size: 12px;
+            color: #ccc; }
+          #center .center_con .reg1 .reg_main form p #tel, #center .center_con .reg1 .reg_main form p #pwd, #center .center_con .reg1 .reg_main form p #pwd2 {
+            width: 240px; }
+          #center .center_con .reg1 .reg_main form p .inputstyle {
+            border: solid 1px #ababab;
+            background-color: #f4f4f4;
+            height: 22px; }
+          #center .center_con .reg1 .reg_main form p em {
+            font-size: 12px;
+            color: red;
+            display: none; }
+          #center .center_con .reg1 .reg_main form p .yzm {
+            width: 75px;
+            height: 31px;
+            background: pink;
+            display: inline-block;
+            font-size: 20px;
+            line-height: 30px;
+            color: #fff;
+            text-align: center; }
+          #center .center_con .reg1 .reg_main form p .yzm_btn {
+            font-size: 13px;
+            height: 30px;
+            line-height: 30px;
+            padding: 0 10px; }
+        #center .center_con .reg1 .reg_main form .zhuce {
+          text-align: center; }
+          #center .center_con .reg1 .reg_main form .zhuce #register_btn {
+            width: 120px;
+            height: 35px;
+            background-color: #791268;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 0 10px 0 10px;
+            cursor: pointer; }
+    #center .center_con .reg_bottom {
+      width: 756px; }

@@ -1,0 +1,287 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+ul, ol, li {
+  list-style: none; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+input {
+  outline: none; }
+
+.clear_fix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clear_fix {
+  zoom: 1; }
+
+/*-------top--------*/
+#header {
+  width: 1264px; }
+  #header .header_con {
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden; }
+    #header .header_con .logo {
+      float: left; }
+      #header .header_con .logo a {
+        display: block;
+        width: 276px;
+        height: 83px;
+        background: url(../../dist/img/register/spring.png) no-repeat 0 -15px; }
+    #header .header_con .header_right {
+      float: right;
+      margin-top: 10px; }
+      #header .header_con .header_right .ShowWelcome {
+        font-size: 12px;
+        float: left;
+        line-height: 34px;
+        margin-right: 110px; }
+        #header .header_con .header_right .ShowWelcome a {
+          color: #8cc341; }
+      #header .header_con .header_right .h_r {
+        float: right;
+        font-size: 12px;
+        line-height: 34px; }
+        #header .header_con .header_right .h_r a {
+          color: #4b4b4b; }
+
+/*------foot--------*/
+#foot {
+  height: 450px;
+  background: #fff; }
+  #foot .foot_t {
+    width: 1050px;
+    border-top: 1px solid #DDD;
+    margin: 0 auto; }
+  #foot .other_help {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    height: 226px;
+    padding-top: 10px; }
+    #foot .other_help .wrapper {
+      width: 980px;
+      height: 50px;
+      margin: 0 auto;
+      clear: both; }
+      #foot .other_help .wrapper .wrapper_b span {
+        width: 160px;
+        height: 50px;
+        display: inline-block;
+        margin-right: 80px;
+        background: url(../../dist/img/index/index.png) no-repeat; }
+      #foot .other_help .wrapper .wrapper_b .zp {
+        background-position: 2px -77px; }
+      #foot .other_help .wrapper .wrapper_b .ps {
+        background-position: -158px -77px; }
+      #foot .other_help .wrapper .wrapper_b .aq {
+        background-position: -331px -77px; }
+      #foot .other_help .wrapper .wrapper_b .fw {
+        background-position: -515px -77px; }
+      #foot .other_help .wrapper dl {
+        float: left;
+        margin: 20px 40px 0 0;
+        color: #222;
+        font-size: 12px;
+        line-height: 18px; }
+        #foot .other_help .wrapper dl dt {
+          font-size: 14px;
+          line-height: 18px;
+          font-weight: bold;
+          margin-bottom: 10px; }
+        #foot .other_help .wrapper dl dd {
+          line-height: 24px;
+          text-align: left; }
+          #foot .other_help .wrapper dl dd a {
+            cursor: pointer;
+            color: #818181; }
+        #foot .other_help .wrapper dl dd:hover a {
+          color: #aa2e44; }
+        #foot .other_help .wrapper dl .gz {
+          width: 240px;
+          height: 125px;
+          background: url(../img/register/register.png) no-repeat 0 -343px; }
+    #foot .other_help .clear {
+      clear: both;
+      font-size: 1px;
+      line-height: 0;
+      height: 0px; }
+    #foot .other_help .bottom {
+      width: 1050px;
+      border-bottom: 1px solid #F1F1F1;
+      margin: 0 auto; }
+  #foot .foot_b {
+    padding-top: 10px;
+    width: 980px;
+    margin: 0 auto;
+    text-align: center; }
+    #foot .foot_b .nav {
+      text-align: left; }
+      #foot .foot_b .nav a {
+        padding: 0 5px;
+        color: #222;
+        cursor: pointer;
+        font-size: 12px; }
+    #foot .foot_b .tb a {
+      display: inline-block; }
+    #foot .foot_b .bq {
+      font-size: 12px; }
+
+/*------center------*/
+#center {
+  width: 1264px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 200px; }
+  #center .center_con {
+    margin: 0px auto;
+    width: 980px;
+    overflow: hidden;
+    height: 460px; }
+    #center .center_con .center_con_l {
+      width: 542px;
+      float: left; }
+      #center .center_con .center_con_l span {
+        font-size: 24px;
+        line-height: 25px;
+        color: #d5a2a9;
+        font-weight: bold;
+        display: block;
+        padding-top: 25px; }
+    #center .center_con .center_con_r {
+      float: right;
+      width: 402px;
+      height: 458px;
+      position: relative; }
+      #center .center_con .center_con_r .conright {
+        position: absolute;
+        background: url(../img/login/login_fd.png);
+        width: 382px;
+        overflow: hidden;
+        height: 460px;
+        top: 0;
+        right: 0;
+        padding-top: 70px;
+        z-index: 100;
+        padding: 0 10px; }
+      #center .center_con .center_con_r .condiv {
+        position: absolute;
+        width: 402px;
+        overflow: hidden;
+        height: 388px;
+        top: 0;
+        right: 0;
+        padding-top: 70px;
+        z-index: 101; }
+        #center .center_con .center_con_r .condiv .condiv_t {
+          padding-left: 32px;
+          font-size: 12px; }
+          #center .center_con .center_con_r .condiv .condiv_t input {
+            vertical-align: middle;
+            width: 182px;
+            height: 20px;
+            line-height: 20px;
+            background-color: #f4f4f4;
+            border: solid 1px #acacac; }
+          #center .center_con .center_con_r .condiv .condiv_t p {
+            margin-bottom: 6px; }
+            #center .center_con .center_con_r .condiv .condiv_t p i {
+              display: inline-block;
+              width: 40px;
+              text-align: right; }
+            #center .center_con .center_con_r .condiv .condiv_t p .rem_box {
+              float: left;
+              margin: 12px 0 0 10px; }
+              #center .center_con .center_con_r .condiv .condiv_t p .rem_box input {
+                height: 15px;
+                width: 20px;
+                background: #fff;
+                border: none;
+                vertical-align: middle; }
+            #center .center_con .center_con_r .condiv .condiv_t p .yzm {
+              display: inline-block;
+              width: 60px;
+              height: 30px;
+              background: pink;
+              font-size: 20px;
+              line-height: 30px;
+              color: #fff;
+              text-align: center; }
+            #center .center_con .center_con_r .condiv .condiv_t p .sp {
+              display: none;
+              font-size: 12px;
+              color: brown; }
+          #center .center_con .center_con_r .condiv .condiv_t .spanmsg {
+            display: none; }
+            #center .center_con .center_con_r .condiv .condiv_t .spanmsg span {
+              border: solid 1px #6bc7f0;
+              background-color: #e8f5fd;
+              color: #74797d;
+              font-weight: normal;
+              padding: 0px;
+              font-size: 12px;
+              margin-left: 4px; }
+        #center .center_con .center_con_r .condiv .condiv_m {
+          width: 332px;
+          height: 93px;
+          background: url(../img/login/login_lhdiv.jpg);
+          margin-left: 32px;
+          padding-top: 5px;
+          font-size: 12px; }
+          #center .center_con .center_con_r .condiv .condiv_m p {
+            width: 332px;
+            height: 25px;
+            line-height: 24px;
+            padding-left: 5px;
+            margin-bottom: 6px; }
+            #center .center_con .center_con_r .condiv .condiv_m p span {
+              float: left;
+              valign: bottom; }
+              #center .center_con .center_con_r .condiv .condiv_m p span a {
+                float: left;
+                color: #0149ab;
+                font-size: 12px;
+                margin: 0 3px; }
+        #center .center_con .center_con_r .condiv .clear {
+          font-size: 0;
+          line-height: 0;
+          height: 0;
+          visibility: hidden;
+          clear: both;
+          float: none; }
+        #center .center_con .center_con_r .condiv .msdiv {
+          font-size: 12px;
+          margin-left: 32px; }
+          #center .center_con .center_con_r .condiv .msdiv p {
+            color: #c60000;
+            margin-bottom: 6px; }
+        #center .center_con .center_con_r .condiv .condiv_b {
+          text-align: center;
+          padding-left: 140px;
+          margin-top: 10px; }

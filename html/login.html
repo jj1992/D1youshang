@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/login.min.css" />
+	</head>
+	<script type="text/javascript" src="../js/require.js" data-main="../js/login.min" defer async="true"></script>
+	<body>
+	
+	<!--header-->
+	<div id="header">
+		<div class="header_con">
+			<h2 class="logo">
+				<a href="index1.html" title="返回首页"></a>
+			</h2>
+			<div class="header_right">
+				<span class="ShowWelcome">
+					你好，欢迎来到D1购物，请
+					<a href="login.html">登录</a>
+					或
+					<a href="register.html" target="_blank">注册</a>
+				</span>
+				<span class="h_r"> 
+					<a href="">我的帐户</a>
+					|
+					<a href="">订单查询</a>
+					|
+					<a href="">我的优惠券</a>
+					|
+					<a href="">积分换购</a>
+					|
+					<a href="">帮助中心</a>
+				</span>
+			</div>
+		</div>
+	</div>
+	
+	<!--center-->
+	<div id="center">
+		<div class="center_con">
+			<div class="center_con_l">
+				<span>
+					<a href="">
+						<img src="../img/login/wxsc.jpg" alt="" />
+					</a>
+				</span>
+			</div>
+			<div class="center_con_r">
+				<div class="conright"></div>
+				<div class="condiv">
+					<div class="condiv_t">
+						<p>
+							<i>用户名:</i>
+							<input id="user" type="text" />
+							<span class="sp yhm">用户名错误</span>
+						</p>
+						<p class="spanmsg"><i></i><span>请输入用户名/Email/手机号</span></p>
+						<p>
+							<i>密码:</i>
+							<input id="pwd" type="password" />
+							<a style="color:#000;" href="">忘记密码?</a>
+							<span class="sp mm">密码错误</span>
+						</p>
+						<p class="spanmsg"><i></i><span>请填写6-14位的密码，字母区分大小写</span></p>
+						<p>
+							<i>验证码:</i>
+							<input style="width:88px;" type="text" />
+							<b class="yzm"></b>
+							看不清，
+							<a class="renovate" style="color:#0149ab;" href="javascript:;">换一张</a>
+						</p>
+						<p class="spanmsg"><i></i><span>请输入验证码</span></p>
+						<p style="padding-left:60px;overflow: hidden;">
+							<a id="loginBtn" href="javascript:;" style="display: block;"><img style="float:left;" src="../img/login/login.gif" alt="" /></a>
+							<em class="rem_box">
+								<input type="checkbox" id="rember"/>
+								<b class="rem" style="#000">记住用户名</b>
+							</em>
+						</p>
+					</div>
+					<div class="condiv_m">
+						<p>合作商户账户登录：</p>
+						<p>
+							<span>
+								<a href=""><img src="../img/login/weixin-login.png" alt="" /></a>
+								<a href="">微信</a>
+								｜
+							</span>
+							
+							<span>
+								<a href=""><img src="../img/login/alipay-login.png" alt="" /></a>
+								<a href="">支付宝</a>
+								｜
+							</span>
+							
+							<span>
+								<a href=""><img src="../img/login/xl.jpg" alt="" /></a>
+								<a href="">新浪</a>
+							</span>
+						</p>
+						<p>
+							<span>
+								<a href=""><img src="../img/login/sh.jpg" alt="" /></a>
+								<a href="">搜狐微博</a>
+								|
+							</span>
+							
+							<span>
+								<a href=""><img src="../img/login/cft.jpg" alt="" /></a>	
+								|
+							</span>
+							
+							<span>
+								<a href=""><img src="../img/login/139.jpg"/></a>
+								<a href="">139邮箱</a>
+							</span>
+						</p>
+					</div>
+					<div class="clear"></div>
+					<div class="msdiv">
+						<p>还不是D1优尚会员?</p>
+						立即注册成为D1优尚会员，便能享受便宜又放心的购物乐趣!
+					</div>
+					<div class="condiv_b"> 
+						<a href="register.html"><img src="../img/login/reg_new.gif" alt="" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--foot-->
+	<div id="foot">
+		<br>
+		<div class="foot_t"></div>
+		<div class="other_help">
+			<div class="wrapper">
+				<div class="wrapper_b">
+					<span class="zp"></span>
+					<span class="ps"></span>
+					<span class="aq"></span>
+					<span class="fw"></span>
+				</div>
+				<dl>
+					<dt>购物帮助</dt>
+					<dd><a href="javascript:;">购物的基本问题</a></dd>
+					<dd><a href="javascript:;">如何使用优惠券</a></dd>
+					<dd><a href="javascript:;">如何累计并消费积分</a></dd>
+					<dd><a href="javascript:;">第一次购物体验</a></dd>
+				</dl>
+				<dl>
+					<dt>支付方式</dt>
+					<dd><a href="javascript:;">货到付款</a></dd>
+					<dd><a href="javascript:;">银行电汇</a></dd>
+					<dd><a href="javascript:;">网银支付</a></dd>
+					<dd><a href="javascript:;">邮局汇款</a></dd>
+				</dl>
+				<dl>
+					<dt>配送方式及费用</dt>
+					<dd>
+						<a href="javascript:;">
+							<span style="color:#ff0000">物流信息查询</span>
+						</a>
+					</dd>
+					<dd><a href="javascript:;">配送范围</a></dd>
+					<dd><a href="javascript:;"> 配送方式</a></dd>
+					<dd><a href="javascript:;"> 运费说明</a></dd>
+				</dl>
+				<dl>
+					<dt>售后服务</dt>
+					<dd><a href="javascript:;">D1品质保证原则</a></dd>
+					<dd><a href="javascript:;">D1退换货总原则</a></dd>
+					<dd><a href="javascript:;">D1退换货地址及流程</a></dd>
+					<dd><a href="javascript:;">D1退换货特殊说明</a></dd>
+				</dl>
+				<dl>
+					<dt>VIP特享政策</dt>
+					<dd><a href="">VIP会员的优惠及服务</a></dd>
+					<dd><a href="">如何获得和保持VIP</a></dd>
+					<dd><a href="">如何升级为白金VIP</a></dd>
+					<dd><a href="">白金VIP的优惠及服务</a></dd>
+				</dl>
+				<dl>
+					<div class="gz"></div>
+				</dl>
+			</div>
+			<div class="clear"></div>
+			<br>
+			<div class="bottom">
+				
+			</div>
+		</div>
+		<div class="foot_b">
+			<p class="nav">
+				<a href="#">联系我们</a>
+				|
+				<a href="#">关于我们</a>
+				|
+				<a href="#">配送范围</a>
+				|
+				<a href="#">如何付款</a>
+				|
+				<a href="#">品牌合作</a>
+				|
+				<a href="#">友情链接</a>
+				|
+				<a href="#">全球创意购</a>
+			</p>
+			<div class="tb">
+				<a href="#"><img src="../img/list/tb1.gif" alt="" /></a>
+				<a href="#"><img src="../img/list/tb2.png" alt="" /></a>
+				<a href="#"><img src="../img/list/tb3.gif" alt="" /></a>
+				<a href="#"><img src="../img/list/tb4.gif" alt="" /></a>
+				<a href="#"><img src="../img/list/tb5.gif" alt="" /></a>
+				<a href="#"><img src="../img/list/tb6.gif" alt="" /></a>
+			</div>
+			<div class="bq">京ICP证030072号&nbsp;&nbsp;京公网安备：110108905029 &nbsp;&nbsp;www.D1.com.cn Copyright 2002-2016 D1优尚网 版权所有</div>
+		</div>
+	</div>
+	</body>
+</html>

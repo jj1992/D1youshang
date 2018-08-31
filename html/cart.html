@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="../css/cart.min.css" />
+</head>
+	<script type="text/javascript" src="../js/require.js" data-main="../js/cart.min" defer async="true"></script>
+<body>
+	<!--header-->
+	<div id="header">
+		<p class="user_help">
+			<span class="h_r">
+				<a href="#">帮助中心</a>
+			</span>
+			<span class="ShowWelcome">
+				你好，欢迎来到D1购物，请
+				<a href="login.html">登录</a>
+				或
+				<a href="register.html" target="_blank">注册</a>
+			</span>
+		</p>
+		<div class="clear_fix"></div>
+	</div>
+	
+	<!--购物车页面-->
+	<div class="carcenter">
+		<div class="content">
+			<!--购物车logo-->
+			<div class="car_logo">
+				<a style="width:150px;height:65px;display: block;position:absolute" href="index1.html"></a>
+				<img src="../img/cart/sc_logo.jpg" alt="" />
+			</div>
+			<div style="padding-bottom:15px;"></div>
+			<!--购物车内容-->
+			<div class="car_content">
+				<div class="car_tit">我挑选的商品清单</div>
+				<div class="car_tip">
+					温馨提示：1.选购清单中的商品无法保留库存，请您及时结算。2.商品价格、赠品及库存将以订单提交时为准。
+				</div>
+				<div id="cart_gs_area" class="gs_list">
+					&nbsp;&nbsp;如下商品，有D1优尚网  负责发货
+					<table id="tal" border="0" cellspacing="0" cellpadding="0">
+						<tr class="th">
+							<th width="158"></th>
+							<th style="text-align: left;" width="300">商品名称/编号</th>
+							<th width="100">规格</th>
+							<th width="80">会员价</th>
+							<th width="80">成交价</th>
+							<th width="86">数量</th>
+							<th width="81">小计</th>
+						</tr>
+						<!--<tr id="cart_1" type='20' style="background: #fffddd;">
+							<td class="cart1">
+								<a href="#" title="【秒杀】日本进口 不锈钢菜刀 多功能轻便水果刀（水果刀+磨刀石 套装）">
+									<img src="../img/cart/cart1.jpg" alt="【秒杀】日本进口 不锈钢菜刀 多功能轻便水果刀（水果刀+磨刀石 套装）" />
+								</a>
+							</td>
+							<td class="othertd">
+								【秒杀】日本进口 不锈钢菜刀 多功能轻便水果刀（水果刀+磨刀石 套装）
+								<br>
+								01207894
+								<br>
+								<a href="###" class="del_link">删除</a>
+								<a href="###" class="fav_link">加入收藏</a>
+							</td>
+							<td>
+								无
+							</td>
+							<td>
+								<span>79</span>
+							</td>
+							<td>59</td>
+							<td>
+								<a class="num_minus" href="###" title="减1">
+									<img src="../img/cart/j_a.gif" alt="" />
+								</a>
+								<input id="num_input" class="amount" type="text" value="1"/>
+								<a class="num_add" href="###" title="加1">
+									<img src="../img/cart/a_j.gif" alt="" />
+								</a>
+							</td>
+							<td>
+								<font color="#ff0000">59</font>
+							</td>
+						</tr>-->
+					</table>
+				</div>
+				<div id ="total_area" class="gs_list tailtd">
+					购物车商品总计:
+					<font id="total_Count" style="font-size: 13px; font-weight: bold;">0</font>
+					件
+					<font style="color:#d80100;font-size:16px; font-weight: bold;margin-left:30px;">
+						应付总额:
+						<span id="total_Price">0.00</span>
+						元
+					</font>
+				</div>
+				<div id="check_btn_area" class="gs_list resultbtn">
+					<font color="#9f2d47">x </font>
+					<a href="javascript:;">清空购物车列表</a>
+					<a href="list.html">
+						<img src="../img/cart/sc_jxgw.gif" alt="继续购物" style="margin:0 25px;"align="top"/>
+					</a>
+					<input id="checkout" src="../img/cart/sc_ljjs.gif" type="image" title="立即结算" style="margin-right: 20px;"/>
+				</div>
+				<p class="noCart">
+					如果您上次退出时，购物车中有商品，那么商品已自动保存，
+					<a href="login.html">请登陆后查看>></a>
+				</p>
+				<div class="clear_fix"></div>
+				<div class="gs_list">
+					<table border="0" cellspacing="0" cellpadding="0" width="885">
+						<tr>
+							<td class="mstext" colspan="7">
+								【免运费规则】
+								<br>
+								 1. 在线支付、微信支付：实际支付金额满
+								 <font style="font-weight: bold;" color="#a22d48">88</font>
+								 元免运费;不满足条件时，每单收取
+								 <font style="font-weight: bold;" color="#a22d48">5元</font>
+								 运费。
+								 <br>
+								 2.货到付款：支付金额超过
+								 <font style="font-weight: bold;" color="#a22d48">88</font>
+								 元的订单支持货到付款。收到付款免运费。
+								 <br>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="goods_list" id="zengpin_area" style="padding-bottom:30px;">
+				 </div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

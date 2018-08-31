@@ -1,0 +1,168 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+ul, ol, li {
+  list-style: none; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+input {
+  outline: none; }
+
+.clear_fix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clear_fix {
+  zoom: 1; }
+
+/*--------header---------*/
+#header {
+  width: 887px;
+  height: 43px;
+  margin: 0 auto;
+  font-size: 12px; }
+  #header .user_help {
+    padding-top: 10px;
+    margin-left: 300px;
+    overflow: hidden; }
+    #header .user_help .h_r {
+      float: right;
+      line-height: 34px; }
+      #header .user_help .h_r a {
+        color: #4b4b4b; }
+      #header .user_help .h_r a:hover {
+        color: #aa2e44; }
+    #header .user_help .ShowWelcome {
+      line-height: 34px;
+      float: right;
+      margin-right: 70px; }
+      #header .user_help .ShowWelcome a {
+        color: #8cc341; }
+
+/*--------购物车页----------*/
+.carcenter {
+  width: 887px;
+  margin: 0px auto; }
+  .carcenter .content {
+    padding-top: 5px; }
+    .carcenter .content .car_logo {
+      width: 887px;
+      height: 65px; }
+    .carcenter .content .car_content {
+      width: 885px;
+      border: solid 1px #c2c2c2; }
+      .carcenter .content .car_content .car_tit {
+        background-color: #ffecf2;
+        height: 40px;
+        color: #3e3c3d;
+        font-size: 18px;
+        line-height: 40px;
+        padding-left: 20px;
+        font-weight: bold; }
+      .carcenter .content .car_content .car_tip {
+        color: #333333;
+        line-height: 60px;
+        height: 60px;
+        font-size: 13px;
+        font-weight: bold;
+        padding-left: 20px;
+        border-bottom: solid 1px #b33b57; }
+      .carcenter .content .car_content .gs_list {
+        padding-top: 2px;
+        color: #6a6a6a;
+        font-size: 12px; }
+        .carcenter .content .car_content .gs_list table {
+          width: 885px;
+          border-top: 1px #ccc dashed; }
+          .carcenter .content .car_content .gs_list table .th {
+            background-color: #ddd;
+            height: 36px;
+            text-align: center;
+            color: #68696b; }
+          .carcenter .content .car_content .gs_list table td {
+            border-bottom: dashed 1px #ccc;
+            line-height: 20px;
+            text-align: center; }
+            .carcenter .content .car_content .gs_list table td a {
+              color: #325bc4;
+              text-decoration: underline;
+              line-height: 16px; }
+            .carcenter .content .car_content .gs_list table td .num_minus, .carcenter .content .car_content .gs_list table td .num_add {
+              display: block;
+              margin-top: 3px;
+              margin-right: 3px;
+              height: 11px;
+              width: 11px;
+              padding: 0 4px;
+              float: left; }
+            .carcenter .content .car_content .gs_list table td .amount {
+              width: 30px;
+              height: 15px;
+              background-color: #f5f5f5;
+              border: solid 1px #ccc;
+              text-align: center;
+              float: left;
+              vertical-align: middle;
+              font-size: 12px; }
+          .carcenter .content .car_content .gs_list table .cart1 {
+            padding-left: 10px; }
+            .carcenter .content .car_content .gs_list table .cart1 img {
+              width: 70px;
+              height: 70px;
+              margin-left: 30px; }
+          .carcenter .content .car_content .gs_list table .othertd {
+            text-align: left; }
+        .carcenter .content .car_content .gs_list .mstext {
+          text-align: left;
+          padding: 10px 0 10px 15px;
+          background-color: #ffecf2;
+          border-bottom: none;
+          line-height: 25px; }
+      .carcenter .content .car_content .noCart {
+        padding: 20px 0;
+        text-align: center;
+        font-size: 14px;
+        display: none; }
+      .carcenter .content .car_content .tailtd {
+        height: 40px;
+        text-align: right;
+        padding-right: 20px;
+        color: #000;
+        border-bottom: dashed 1px #CCC;
+        line-height: 40px; }
+      .carcenter .content .car_content .resultbtn {
+        height: 40px;
+        text-align: right;
+        padding-top: 10px;
+        border-bottom: none;
+        text-align: right; }
+        .carcenter .content .car_content .resultbtn a {
+          color: #325BC4;
+          line-height: 13px; }
+          .carcenter .content .car_content .resultbtn a img {
+            display: inline-block; }
